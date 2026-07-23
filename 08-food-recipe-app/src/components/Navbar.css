@@ -1,0 +1,5 @@
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 16px 32px; background: #1f1f2e; position: sticky; top: 0; z-index: 100; }
+.logo { color: white; text-decoration: none; font-size: 1.4rem; font-weight: bold; }
+.fav-link { color: white; text-decoration: none; font-size: 15px; display: flex; align-items: center; gap: 6px; }
+.fav-link:hover { color: #f59e0b; }
+.badge { background: #ef4444; color: white; border-radius: 50%; padding: 2px 7px; font-size: 12px; font-weight: bold; }

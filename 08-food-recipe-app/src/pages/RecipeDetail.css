@@ -1,0 +1,16 @@
+.detail { max-width: 900px; margin: 0 auto; padding: 32px; font-family: system-ui, sans-serif; }
+.back { display: inline-block; margin-bottom: 24px; color: #6366f1; text-decoration: none; font-weight: 600; }
+.detail-header { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 40px; }
+.detail-header img { width: 100%; border-radius: 16px; object-fit: cover; }
+.detail-meta h1 { margin: 0 0 16px; font-size: 1.8rem; }
+.detail-meta p { margin: 8px 0; color: #555; }
+.yt-link { display: inline-block; margin: 16px 0 12px; background: #ef4444; color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; }
+.fav-btn { padding: 10px 20px; border: 2px solid #6366f1; background: white; color: #6366f1; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 14px; }
+.fav-btn.faved { background: #6366f1; color: white; }
+.detail-body { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; }
+.ingredients h2, .instructions h2 { margin-top: 0; }
+.ingredients ul { list-style: none; padding: 0; }
+.ingredients li { padding: 6px 0; border-bottom: 1px solid #f0f0f0; font-size: 14px; display: flex; gap: 8px; }
+.instructions p { line-height: 1.8; color: #444; white-space: pre-line; }
+.status { text-align: center; padding: 80px; color: #888; font-size: 18px; }
+@media (max-width: 600px) { .detail-header, .detail-body { grid-template-columns: 1fr; } }
